@@ -1,0 +1,41 @@
+/* pages/chatter/chatter.wxss */
+page{
+  background-image:url("http://47.94.206.213/2.png");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+
+.sp{
+  font-size:22px;
+  color:aquamarine;
+}
+.result{font-size:40px;
+color:rgb(0, 81, 151);}
+
+.button{
+  position:absolute;
+  top:480rpx;
+}
+.btimage{
+ display:flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+.bt2{
+  width:423rpx;
+  height:487rpx;
+  border-radius: 0rpx;
+  opacity:0;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  top:480rpx;
+
+}
+.text{
+  font-size: 60rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "window":{
+  "navigationBarBackgroundColor":"#f6cdb0",
+  "navigationBarTextStyle":"black"
+  },
+"tabBar":{
+  "color":"#130480"
+  }
+}

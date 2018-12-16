@@ -1,0 +1,16 @@
+<!--pages/infor/infor.wxml-->
+<view >
+<body>
+
+<view class="ct">LightMakers</view>
+<text>\n\n\n</text>
+<view class="namestyle1">韩雨霏:服务器搭建、小程序逻辑层编写</view>
+<text>\n\n</text>
+<view class="namestyle1">周子杰：mCookie端代码编写</view>
+<text>\n\n</text>
+<view class="namestyle1">黃凱琛：海报设计、产品设计、硬件搭建</view>
+<text>\n\n</text>
+<view class="namestyle1">蔡略：小程序渲染层编写</view>
+
+</body>
+</view>

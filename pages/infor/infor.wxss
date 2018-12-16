@@ -1,0 +1,38 @@
+/* pages/infor/infor.wxss */
+page{
+  background-color: skyblue;
+}
+.ph1{
+  text-align: center;
+  color: black;
+  font-family: arial;
+}
+
+.namestyle1{
+  color:black;
+  font-size:50rpx;
+}
+.namestyle2{
+  color:#f9741b;
+  font-size:50rpx;
+}
+.namestyle3{
+  color:aqua;
+  font-size:50rpx;
+}
+.namestyle4{
+  color:blue;
+  font-size:50rpx;
+}
+page{
+  background-image:url("http://47.94.206.213/4.png");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}
+
+.ct{
+  display: flex;
+  justify-content: center;
+  font-size: 60rpx;
+}

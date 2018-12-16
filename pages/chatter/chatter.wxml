@@ -1,0 +1,14 @@
+<!--pages/chatter/chatter.wxml-->
+<view class="btimage">
+      
+      <text class="text">语音调控</text>
+      
+      <text class="sp">\n</text>
+      <text class="result">{{result}}</text>
+      <text class="sp">\n\n\n\n\n</text>
+      
+      <image  class="button" src='http://47.94.206.213/2record.png' mode="aspectFit" wx:if="{{recording}}"> 
+      </image>
+      <image class="button" src='http://47.94.206.213/3record.gif' mode="aspectFit" wx:if="{{!recording}}"></image>
+      <button class="bt2" bindtouchstart='startRecord' bindtouchend='stopRecord'></button>
+</view>

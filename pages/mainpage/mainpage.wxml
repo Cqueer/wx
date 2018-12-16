@@ -1,0 +1,14 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view wx:if="{{state}}">
+  <view>
+    <view>
+      <button class="bt1" bindtap="touch2"></button>
+    </view>
+  </view>
+</view>
+<view wx:else>
+    <image src="http://47.94.206.213/main0.png" class="img"  wx:if="{{!state}}" mode="aspecFit">
+    </image>
+    <button class="bt1" bindtap="touch"wx:if="{{!state}}">
+    </button>
+</view>

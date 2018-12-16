@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/mainpage/mainpage",
+    "pages/weather/weather",
+    "pages/chatter/chatter",
+    "pages/infor/infor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eef",
+    "navigationBarTitleText": "Alight",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/mainpage/mainpage",
+        "iconPath": "icons/Pmain.png",
+        "text": "首页",
+        "color": "#6E6E6E",
+        "selectedColor": "#FF0000",
+        "iconcolor": "#6E6E6E",
+        "selectedIconPath": "icons/Pmain1.png"
+      },
+      {
+        "pagePath": "pages/chatter/chatter",
+        "iconPath": "icons/Pchatter.png",
+        "text": "语音助手",
+        "color": "#6E6E6E",
+        "selectedColor": "#EEC900",
+        "iconcolor": "#6E6E6E",
+        "selectedIconPath": "icons/Pchatter1.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "iconPath": "icons/Pweather.png",
+        "text": " 天气助手",
+        "color": "#6E6E6E",
+        "selectedColor": "#66CD00",
+        "iconcolor": "#6E6E6E",
+        "selectedIconPath": "icons/Pweather1.png"
+      },
+      {
+        "pagePath": "pages/infor/infor",
+        "iconPath": "icons/Pinfor.png",
+        "text": "关于",
+        "color": "#6E6E6E",
+        "selectedColor": "#4876FF",
+        "iconcolor": "#6E6E6E",
+        "selectedIconPath": "icons/Pinfor1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
